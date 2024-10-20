@@ -10,7 +10,7 @@ resource "local_file" "res2" {
   filename = "xyz"
   content  = "this is resb 2"
   lifecycle {
-    prevent_destroy = true
+    prevent_destroy = false
   }
 
 }
