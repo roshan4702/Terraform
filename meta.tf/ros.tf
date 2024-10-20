@@ -10,7 +10,7 @@ resource "local_file" "ros2" {
   filename = "xy12z"
   content  = "this is rosb 2"
   lifecycle {
-    prevent_destroy = true
+    prevent_destroy = false
   }
 
 }
